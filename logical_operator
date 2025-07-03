@@ -1,0 +1,14 @@
+sysytax:
+----------
+|| => or
+&& => and
+----------
+        
+int n=10;
+        
+if((n>5) && (n>30)){            
+  System.out.println("&&");
+}else if((n>5) || (n>20))
+  System.out.println("||");
+else
+  System.out.println("Thank");
